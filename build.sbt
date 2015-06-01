@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   cache,
   javaWs,
   evolutions,
-  "org.hibernate" % "hibernate-entitymanager" % "4.3.6.Final"
+  "org.hibernate" % "hibernate-entitymanager" % "4.3.10.Final"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
