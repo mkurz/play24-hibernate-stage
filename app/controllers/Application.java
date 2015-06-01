@@ -10,7 +10,7 @@ import play.db.jpa.Transactional;
 public class Application extends Controller {
 
     @Transactional(readOnly = true)
-    public Result index() {
+    public static Result index() {
         Test.findAll();
         return ok(index.render("Your new application is ready."));
     }
