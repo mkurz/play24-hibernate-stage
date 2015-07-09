@@ -1,11 +1,10 @@
 # --- !Ups
 
 CREATE TABLE Test (
-  id           BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  id           INT NOT NULL,
   name         VARCHAR(45)         NOT NULL,
   PRIMARY KEY (id)
-)
-  ENGINE = InnoDB;
+);
 
 # --- !Downs
 

@@ -11,7 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   javaWs,
   evolutions,
-  "org.hibernate" % "hibernate-entitymanager" % "4.3.10.Final"
+  "org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
+  "org.hibernate" % "hibernate-entitymanager" % "5.0.0.CR2",
+  "org.hibernate" % "hibernate-java8" % "5.0.0.CR1",
+  "org.hibernate" % "hibernate-search-orm" % "5.4.0.Alpha1"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
